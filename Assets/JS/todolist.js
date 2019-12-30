@@ -16,7 +16,7 @@ $("input[type='text']").on("keypress", function (event) {
         $(this).val("");
         //appending it to the ul
 
-        $("ul").append("<li> <span class='deleteButton'><i class='far fa-trash-alt'></i></span> " + toDoText + " </li>")
+        $("ul").append("<li> <span><i class='far fa-trash-alt'></i></span> " + toDoText + " </li>")
     }
 });
 
